@@ -17,5 +17,7 @@ public class TestClass extends Base_Class {
         PageObjectManager.getPageObjectManager().getSearchPage().addLaptopToCart();
         PageObjectManager.getPageObjectManager().getCartPage().checkoutProduct();
         PageObjectManager.getPageObjectManager().getCartPage().purchaseProduct();
+
+
     }
 }

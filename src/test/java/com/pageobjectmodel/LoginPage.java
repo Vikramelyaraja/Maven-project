@@ -52,6 +52,8 @@ public class LoginPage extends Base_Class implements LoginPageInterfaceElements 
 
         Thread.sleep(4000);
 
+        System.out.println("Get Title"+title);
+
 
         getTextValue(title);
     }
